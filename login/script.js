@@ -8,12 +8,13 @@ function loginUser() {
     const validPassword = 'edwar';
 
     if (username === validUsername && password === validPassword) {
-        alert('Inicio de sesión exitoso');
+        alert('ADMINISTRADOR 005 INICIASTE SECION' + validUsername +'!');
+        window.location.href='../index.html';
         // Aquí redirigirías a la página principal o dashboard
         // window.location.href = 'dashboard.html';
     } else {
         errorMessage.style.display = 'block';
-        errorMessage.textContent = 'Usuario o contraseña incorrectos';
+        errorMessage.textContent = 'ADMIN O USUARIO NO SE ENCUENTRA EN LA BASE DE DATOSU';
     }
 
     return false; // Para evitar el envío real del formulario
