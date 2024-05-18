@@ -4,11 +4,11 @@ function loginUser() {
     const errorMessage = document.getElementById('errorMessage');
 
     // Simulación de verificación del usuario
-    const validUsername = 'edwar2005';
-    const validPassword = 'edwar';
+    const validUsername = 'admin';
+    const validPassword = '2005';
 
     if (username === validUsername && password === validPassword) {
-        alert('ADMINISTRADOR 005 INICIASTE SECION' + validUsername +'!');
+        alert(' INICIASTE SECION COMO ADMINISTRADOR' +  validUsername + '!');
         window.location.href='./admin.html';
         // Aquí redirigirías a la página principal o dashboard
         // window.location.href = 'dashboard.html';
@@ -17,5 +17,20 @@ function loginUser() {
         errorMessage.textContent = 'ADMIN O USUARIO NO SE ENCUENTRA EN LA BASE DE DATOS';
     }
 
-    return false; // Para evitar el envío real del formulario
+    return false;
+    
+    const validUsername = 'usuario';
+    const validPassword = '2005';
+
+    if (username === validUsername && password === validPassword) {
+        alert('INICIASTE SECION COMO USUARIO' + validUsername + '!');
+        window.location.href='./usuario.html';
+        // Aquí redirigirías a la página principal o dashboard
+        // window.location.href = 'dashboard.html';
+    } else {
+        errorMessage.style.display = 'block';
+        errorMessage.textContent = 'ADMIN O USUARIO NO SE ENCUENTRA EN LA BASE DE DATOS';
+    }
+
+    return false;// Para evitar el envío real del formulario
 }
