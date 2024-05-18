@@ -38,7 +38,7 @@ $(function () {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                             .append("</button>");
-                    $('#success > .alert-danger').append($("<strong>").text("Lo siento " + name + ", , parece que nuestro servidor de correo no responde. ¡Por favor, inténtelo de nuevo más tarde!"));
+                    $('#success > .alert-danger').append($("<strong>").text("Lo siento " + name + ",  parece que nuestro servidor de correo no responde. ¡Por favor, inténtelo de nuevo más tarde!"));
                     $('#success > .alert-danger').append('</div>');
                     $('#contactForm').trigger("reset");
                 },
