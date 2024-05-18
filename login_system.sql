@@ -42,6 +42,7 @@ INSERT INTO `users` (`id`, `username`, `password`, `user_type`) VALUES
 (1, 'admin', '*9A9A8DF73F6431CD3B43F2EE3309A01592D8ADFA', 'admin'),
 (2, 'user', '*3D885319D32AF8352A3B6DC864F86159F67911C1', 'user'),
 (3, 'edwar', '123456', 'user');
+(4, 'anuel' '12345', 'admin'),
 
 --
 -- Índices para tablas volcadas
