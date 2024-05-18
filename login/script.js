@@ -9,7 +9,7 @@ function loginUser() {
 
     if (username === validUsername && password === validPassword) {
         alert('ADMINISTRADOR 005 INICIASTE SECION' + validUsername +'!');
-        window.location.href='../index.html';
+        window.location.href='./admin.html';
         // Aquí redirigirías a la página principal o dashboard
         // window.location.href = 'dashboard.html';
     } else {
