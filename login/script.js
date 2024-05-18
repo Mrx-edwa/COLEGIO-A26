@@ -19,18 +19,5 @@ function loginUser() {
 
     return false;
     
-    const validUsername = 'usuarios';
-    const validPassword = '20052005';
-
-    if (username === validUsername && password === validPassword) {
-        alert('INICIASTE SECION COMO USUARIO' + validUsername + '!');
-        window.location.href='./usuario.html';
-        // Aquí redirigirías a la página principal o dashboard
-        // window.location.href = 'dashboard.html';
-    } else {
-        errorMessage.style.display = 'block';
-        errorMessage.textContent = 'ADMIN O USUARIO NO SE ENCUENTRA EN LA BASE DE DATOS';
-    }
-
-    return false;// Para evitar el envío real del formulario
+    
 }
