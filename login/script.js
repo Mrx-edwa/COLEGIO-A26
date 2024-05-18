@@ -14,7 +14,7 @@ function loginUser() {
         // window.location.href = 'dashboard.html';
     } else {
         errorMessage.style.display = 'block';
-        errorMessage.textContent = 'ADMIN O USUARIO NO SE ENCUENTRA EN LA BASE DE DATOSU';
+        errorMessage.textContent = 'ADMIN O USUARIO NO SE ENCUENTRA EN LA BASE DE DATOS';
     }
 
     return false; // Para evitar el envío real del formulario
