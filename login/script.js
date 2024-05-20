@@ -4,11 +4,11 @@ function loginUser() {
     const errorMessage = document.getElementById('errorMessage');
 
     // Simulación de verificación del usuario
-    const validUsername = 'administrador';
+    const validUsername = 'ADMINISTRADOR';
     const validPassword = '20052005';
 
     if (username === validUsername && password === validPassword) {
-        alert(' INICIASTE SECION COMO ADMINISTRADOR ' +  validUsername  + '!' );
+        alert(' INICIASTE SECION COMO  ' +  validUsername  + '!' );
         window.location.href='./admin.html';
         // Aquí redirigirías a la página principal o dashboard
         // window.location.href = 'dashboard.html';
