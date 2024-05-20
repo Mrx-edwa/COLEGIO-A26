@@ -8,7 +8,7 @@ function loginUser() {
     const validPassword = '20052005';
 
     if (username === validUsername && password === validPassword) {
-        alert(' INICIASTE SECION COMO  ' +  validUsername  + '!' );
+        alert(' INICIASTE SECION COMO ' +  validUsername  + '!' );
         window.location.href='./admin.html';
         // Aquí redirigirías a la página principal o dashboard
         // window.location.href = 'dashboard.html';
