@@ -4,7 +4,7 @@ function loginUser() {
     const errorMessage = document.getElementById('errorMessage');
 
     // Simulación de verificación del usuario
-    const validUsername = 'ADMINISTRADOR';
+    const validUsername = 'edwar';
     const validPassword = '20052005';
 
     if (username === validUsername && password === validPassword) {
