@@ -161,16 +161,15 @@
                                 <input type="email" class="form-control border-0 p-4" id="email" placeholder="Email" required="required" data-validation-required-message="Por favor ingrese su Gmail" />
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div class="control-group">  
-                                <label for="opciones"  class="form-control border-0 p-4" id="subject" aria-placeholder="eleija un tema" data-validation-required-message="Por favor Selecione un tema">
-                                    <select name="opciones" id="opciones">
-                                        <option value="opcion1">Opción 1</option>
-                                        <option value="opcion2">Opción 2</option>
-                                        <option value="opcion3">Opción 3</option>
-                                        <option value="opcion4">Opción 4</option>
-                                    </select>
-                                </label>
-                                
+                            <div class="control-group">
+                                <select class="form-control border-0 p-4" id="subject" required="required" data-validation-required-message="Por favor elija un tema">
+                                    <option value="">Seleccione un tema</option>
+                                    <option value="Tema 1">Tema 1</option>
+                                    <option value="Tema 2">Tema 2</option>
+                                    <option value="Tema 3">Tema 3</option>
+                                    <!-- Agrega más opciones según sea necesario -->
+                                </select>
+                                <p class="help-block text-danger"></p>
                             </div>
                            
                             <div class="control-group">
