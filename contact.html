@@ -162,9 +162,14 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Tema" required="required" data-validation-required-message="Por favor eliga un tema" />
+                                <select class="form-control border-0 p-4" id="subject" required="required" data-validation-required-message="Por favor elija un tema">
+                                    <option value="">Seleccione un tema</option>
+                                    <option value="Tema 1">Tema 1</option>
+                                    <option value="Tema 2">Tema 2</option>
+                                    <option value="Tema 3">Tema 3</option>
+                                    <!-- Agrega más opciones según sea necesario -->
+                                </select>
                                 <p class="help-block text-danger"></p>
-                                
                             </div>
                             <div class="control-group">
                                 <textarea class="form-control border-0 py-3 px-4" rows="5" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor escriba un mensaja"></textarea>
